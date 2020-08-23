@@ -26,3 +26,7 @@ i {
 ul {
     margin: auto
 }
+
+.fa-cog, .fa-user:hover {
+    cursor: pointer;
+}
