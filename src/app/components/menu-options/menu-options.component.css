@@ -1,0 +1,13 @@
+.nav {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+}
+
+a.active {
+    background-color: #f4f4f4 !important;
+    color: #034492 !important;
+}
+
+img {
+    width: 20px;
+}

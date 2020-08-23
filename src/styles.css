@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+ .example_image {
+     width: 200px;
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .example_image {
+     width: 200px;
+ }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .example_image {
+     width: 300px;
+ }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .example_image {
+     width: 300px;
+ }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .example_image {
+     width: 300px;
+ }
+}

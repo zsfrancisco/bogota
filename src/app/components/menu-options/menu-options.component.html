@@ -1,0 +1,3 @@
+<nav class="nav nav-pills flex-column flex-sm-row">
+    <a [class]="route.class" [routerLink]="[route.route]" routerLinkActive="active" *ngFor="let route of routes"><img [src]="route.icon" [alt]="route.description"> {{route.description}}</a>
+</nav>

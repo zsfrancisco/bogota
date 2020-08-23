@@ -6,13 +6,21 @@ import { AppComponent } from './app.component';
 import { PrincipalComponent } from './pages/principal/principal.component';
 import { PrincipalNavComponent } from './components/principal-nav/principal-nav.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { MenuOptionsComponent } from './components/menu-options/menu-options.component';
+import { PatientsComponent } from './components/patients/patients.component';
+import { RegisterComponent } from './components/register/register.component';
+import { LoadsComponent } from './components/loads/loads.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrincipalComponent,
     PrincipalNavComponent,
-    SidebarComponent
+    SidebarComponent,
+    MenuOptionsComponent,
+    PatientsComponent,
+    RegisterComponent,
+    LoadsComponent
   ],
   imports: [
     BrowserModule,
