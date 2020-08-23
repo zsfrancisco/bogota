@@ -1,0 +1,35 @@
+div {
+    height: 100vh;
+    /* background-color: #00234d; */
+    background: rgba(0,35,77,1);
+    background: -moz-linear-gradient(top, rgba(0,35,77,1) 0%, rgba(1,20,41,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,35,77,1)), color-stop(100%, rgba(1,20,41,1)));
+    background: -webkit-linear-gradient(top, rgba(0,35,77,1) 0%, rgba(1,20,41,1) 100%);
+    background: -o-linear-gradient(top, rgba(0,35,77,1) 0%, rgba(1,20,41,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,35,77,1) 0%, rgba(1,20,41,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,35,77,1) 0%, rgba(1,20,41,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00234d', endColorstr='#011429', GradientType=0 );
+}
+
+div>p {
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #6599fa !important;
+}
+
+div>p:hover {
+    cursor: pointer;
+    background-color: #13386d;
+}
+
+div>p:first-of-type {
+    border-top: 1px solid #6599fa !important;
+}
+
+div>p>i {
+    color: #6599fa;
+}
+
+.item-active {
+    background-color: #13386d;
+}
