@@ -38,6 +38,7 @@ span {
 }
 
 i {
+    font-size: 12px;
     margin: 0 10px;
 }
 
@@ -58,4 +59,40 @@ i:hover {
 
 .arrow:hover {
     cursor: pointer;
+}
+
+
+ /* Small devices (landscape phones, 576px and up) */
+
+ @media (min-width: 576px) {
+    i {
+        font-size: 14px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    i {
+        font-size: 22px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    i {
+        font-size: 24px;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    i {
+        font-size: 24px;
+    }
 }
