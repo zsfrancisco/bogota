@@ -7,6 +7,7 @@ import { PrincipalComponent } from './pages/principal/principal.component';
 import { PrincipalNavComponent } from './components/principal-nav/principal-nav.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { MenuOptionsComponent } from './components/menu-options/menu-options.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { MenuOptionsComponent } from './components/menu-options/menu-options.com
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,7 @@
+table {
+    width: 100%;
+}
+
 .patient-page {
     background-color: #666d77;
     padding: 40px;
@@ -19,11 +23,13 @@ tr {
 
 th {
     color: #00234d;
+    text-align: center !important;
     font-size: 11px;
     font-family: 'Alata', sans-serif;
 }
 
 td {
+    text-align: center;
     font-size: 11px;
 }
 
