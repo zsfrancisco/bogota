@@ -7,10 +7,6 @@ import { PrincipalComponent } from './pages/principal/principal.component';
 import { PrincipalNavComponent } from './components/principal-nav/principal-nav.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { MenuOptionsComponent } from './components/menu-options/menu-options.component';
-import { PatientsComponent } from './components/patients/patients.component';
-import { RegisterComponent } from './components/register/register.component';
-import { LoadsComponent } from './components/loads/loads.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -19,14 +15,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     PrincipalNavComponent,
     SidebarComponent,
     MenuOptionsComponent,
-    PatientsComponent,
-    RegisterComponent,
-    LoadsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
