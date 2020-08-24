@@ -30,3 +30,42 @@ ul {
 .fa-cog, .fa-user:hover {
     cursor: pointer;
 }
+
+p {
+    font-size: 1rem;
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+
+ @media (min-width: 576px) {
+    p {
+        font-size: 1rem;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    p {
+        font-size: 1.5rem;
+    }
+}

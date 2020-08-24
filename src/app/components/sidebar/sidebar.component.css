@@ -33,3 +33,42 @@ div>p>i {
 .item-active {
     background-color: #13386d;
 }
+
+i {
+    font-size: 20px;
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+
+ @media (min-width: 576px) {
+    i {
+        font-size: 20px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    i {
+        font-size: 30px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    i {
+        font-size: 36px;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    i {
+        font-size: 36px;
+    }
+}
