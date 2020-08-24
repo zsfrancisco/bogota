@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PatientsService } from '../../services/patients.service';
+import { IPatient } from '../../interfaces/patient';
 
 @Component({
   selector: 'app-patients',
@@ -7,9 +9,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PatientsComponent implements OnInit {
 
-  constructor() { }
+  private _patienets: IPatient[] = [];
+
+  // pagination
+  page: number = 1;
+  pageSize: number = 5;
+  collectionSize: number;
+
+  constructor(
+    private patientsService: PatientsService,
+  ) { }
 
   ngOnInit(): void {
+    this._patienets = this.patientsService.getPatients();
+    this.collectionSize = this._patienets.length;
+  }
+
+  public get patients(): IPatient[] {
+    return this._patienets
+      .slice((this.page - 1) * this.pageSize, (this.page - 1) * this.pageSize + this.pageSize);
   }
 
 }

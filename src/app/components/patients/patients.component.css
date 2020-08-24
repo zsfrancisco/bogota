@@ -1,0 +1,55 @@
+.patient-page {
+    background-color: #666d77;
+    padding: 40px;
+    border-left: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.patient-info {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+}
+
+tr {
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+
+th {
+    color: #00234d;
+    font-size: 11px;
+    font-family: 'Alata', sans-serif;
+}
+
+td {
+    font-size: 11px;
+}
+
+span {
+    font-weight: bold;
+}
+
+i {
+    margin: 0 10px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+
+.arrow {
+    position: absolute;
+    color: #6599fa;
+    background-color: #ffffff;
+    bottom: 20%;
+    left: -2%;
+    border-radius: 50%;
+    transform: translateX(50%)
+}
+
+.arrow:hover {
+    cursor: pointer;
+}

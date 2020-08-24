@@ -10,6 +10,7 @@ import { MenuOptionsComponent } from './components/menu-options/menu-options.com
 import { PatientsComponent } from './components/patients/patients.component';
 import { RegisterComponent } from './components/register/register.component';
 import { LoadsComponent } from './components/loads/loads.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LoadsComponent } from './components/loads/loads.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
